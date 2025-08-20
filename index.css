@@ -5,6 +5,7 @@ body{margin: 0;
     justify-content: center;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     background-image: url(001.jpg);
 }
 #Clickbtn{background-color: greenyellow;
@@ -14,4 +15,12 @@ body{margin: 0;
     margin: 0px;
     
     font-size: 4rem;
+}
+#video{
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    align-items: center;
+    display: block;
+    margin-top: 10px;
 }
