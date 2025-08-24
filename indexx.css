@@ -1,0 +1,59 @@
+body{
+
+    background-image: url("009.jpg");
+    background-size: cover;
+    background-repeat: no-repeat
+;
+   background-position: center;
+   
+
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  body {
+    background-image: url("009@2x.jpg");
+  }
+}
+
+body {
+  
+  font-family:Arial, Helvetica, sans-serif;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background: hsl(84, 100%, 59%);
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button:hover {
+  background: greenyellow;
+}
+
+#message {
+  font-size: 4rem;
+  margin: 15px 0;
+  color: rgb(236, 11, 48);
+}
+
+#loveQuestion {
+    font-size: 3rem;
+  display: none; /* အရင်ဆုံးမပြ */
+}
+
+
+
