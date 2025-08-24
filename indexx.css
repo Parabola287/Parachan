@@ -1,24 +1,25 @@
-body{
 
-    background-image: url("009.jpg");
-    background-size: cover;
-    background-repeat: no-repeat
-;
-   background-position: center;
-   
-
+html, body {
+  height: 100%;
+  margin: 0;
 }
 
-
 body {
-  
-  font-family:Arial, Helvetica, sans-serif;
-  
+  /* background image */
+  background-image: url("009.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* do not use fixed attachment (mobile issues) */
+  background-attachment: scroll;
+
+  /* layout */
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 #container {
@@ -47,9 +48,8 @@ button:hover {
 }
 
 #loveQuestion {
-    font-size: 3rem;
+  font-size: 3rem;
   display: none; /* အရင်ဆုံးမပြ */
 }
-
 
 
