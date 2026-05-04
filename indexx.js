@@ -18,6 +18,6 @@ yesBtn.addEventListener("click",()=>{
     loveQuestion.style.display="none"
 })
 noBtn.addEventListener("click",()=>{
-    message.textContent=`You don't love  me ,i hate you,${name} 😭`
+    message.textContent=`${name} don't love  me , 😭`
     loveQuestion.style.display="none"
 })
